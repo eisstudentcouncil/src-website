@@ -442,9 +442,10 @@ section:last-of-type {
   position: relative;
   overflow: hidden;
 }
-.executive-photo svg {
+.executive-photo img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .executive-body {
   padding: 16px 18px 20px;
